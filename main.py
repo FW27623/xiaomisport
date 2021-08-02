@@ -126,7 +126,7 @@ def push_wx(sckey, desp=""):
     if sckey == '':
         print("[注意] 未提供sckey，不进行推送！")
     else:
-        server_url = f"https://sc.ftqq.com/{sckey}.send"
+        server_url = f"https://sctapi.ftqq.com/{sckey}.send"
         params = {
             "text": '小米运动 步数修改',
             "desp": desp
